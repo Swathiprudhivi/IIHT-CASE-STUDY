@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/TweetAPP1/apis/TweetAPP",
+      "type": "apis.azure"
+    },
+    "cosmosdb1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.DocumentDB/databaseAccounts/tweetapp1",
+      "type": "cosmosdb.azure",
+      "connectionId": "tweetapp",
+      "secretStore": null
+    }
+  }
+}
